@@ -1,3 +1,2 @@
 
-
-[Source]([url](https://stackoverflow.com/a/50590388))
+[Source](https://stackoverflow.com/a/50590388)
