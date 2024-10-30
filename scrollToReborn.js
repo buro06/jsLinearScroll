@@ -1,4 +1,7 @@
-function scrollToReborn(element, duration) {
+/* Functions to make scroll with speed control */
+
+// Element to move + duration in milliseconds
+function scrollTo(element, duration) {
   var e = document.documentElement;
   if (e.scrollTop === 0) {
     var t = e.scrollTop;
