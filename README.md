@@ -1,8 +1,7 @@
 
-# scrollTo Reborn
+# JS Linear Scroll
 
-Adds speed and duration control to the scrollTo function with ease effects
-
+Linear Scrolling function for web development
 
 
 
@@ -10,8 +9,11 @@ Adds speed and duration control to the scrollTo function with ease effects
 
 ## Usage/Examples
 
-```html
-<script src="./scrollToReborn.js"></script>
+```js
+const element = document.getElementById('myElement');
+var scrollPos = 0; //position in pixels to scroll to
+var duration = 1000; //how long it takes to scroll in ms (1000 ms = 1 sec)
+scrollToLinear(element, scrollPos, duration);
 ```
 
 
